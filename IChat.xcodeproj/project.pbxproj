@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		9A4E09F8296DB38F00A98048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E09F7296DB38F00A98048 /* AppDelegate.swift */; };
 		9A4E09FA296DB38F00A98048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E09F9296DB38F00A98048 /* SceneDelegate.swift */; };
-		9A4E09FC296DB38F00A98048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E09FB296DB38F00A98048 /* ViewController.swift */; };
-		9A4E09FF296DB38F00A98048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E09FD296DB38F00A98048 /* Main.storyboard */; };
+		9A4E09FC296DB38F00A98048 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E09FB296DB38F00A98048 /* AuthViewController.swift */; };
 		9A4E0A02296DB38F00A98048 /* IChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E0A00296DB38F00A98048 /* IChat.xcdatamodeld */; };
 		9A4E0A04296DB39100A98048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E0A03296DB39100A98048 /* Assets.xcassets */; };
 		9A4E0A07296DB39100A98048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E0A05296DB39100A98048 /* LaunchScreen.storyboard */; };
+		9A4E0A10296DB45D00A98048 /* UIButton + extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E0A0F296DB45D00A98048 /* UIButton + extention.swift */; };
+		9A4E0A12296DB66900A98048 /* UIFont + extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E0A11296DB66900A98048 /* UIFont + extention.swift */; };
+		9A4E0A14296DE72100A98048 /* UILabel + extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E0A13296DE72100A98048 /* UILabel + extention.swift */; };
+		9A4E0A16296DE87B00A98048 /* UIImageView + extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E0A15296DE87B00A98048 /* UIImageView + extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A4E09F4296DB38F00A98048 /* IChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4E09F7296DB38F00A98048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A4E09F9296DB38F00A98048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A4E09FB296DB38F00A98048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A4E09FE296DB38F00A98048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A4E09FB296DB38F00A98048 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		9A4E0A01296DB38F00A98048 /* IChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IChat.xcdatamodel; sourceTree = "<group>"; };
 		9A4E0A03296DB39100A98048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4E0A06296DB39100A98048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4E0A08296DB39100A98048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4E0A0F296DB45D00A98048 /* UIButton + extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + extention.swift"; sourceTree = "<group>"; };
+		9A4E0A11296DB66900A98048 /* UIFont + extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + extention.swift"; sourceTree = "<group>"; };
+		9A4E0A13296DE72100A98048 /* UILabel + extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + extention.swift"; sourceTree = "<group>"; };
+		9A4E0A15296DE87B00A98048 /* UIImageView + extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +66,25 @@
 			children = (
 				9A4E09F7296DB38F00A98048 /* AppDelegate.swift */,
 				9A4E09F9296DB38F00A98048 /* SceneDelegate.swift */,
-				9A4E09FB296DB38F00A98048 /* ViewController.swift */,
-				9A4E09FD296DB38F00A98048 /* Main.storyboard */,
+				9A4E09FB296DB38F00A98048 /* AuthViewController.swift */,
+				9A4E0A0E296DB42600A98048 /* Exctention */,
 				9A4E0A03296DB39100A98048 /* Assets.xcassets */,
 				9A4E0A05296DB39100A98048 /* LaunchScreen.storyboard */,
 				9A4E0A08296DB39100A98048 /* Info.plist */,
 				9A4E0A00296DB38F00A98048 /* IChat.xcdatamodeld */,
 			);
 			path = IChat;
+			sourceTree = "<group>";
+		};
+		9A4E0A0E296DB42600A98048 /* Exctention */ = {
+			isa = PBXGroup;
+			children = (
+				9A4E0A0F296DB45D00A98048 /* UIButton + extention.swift */,
+				9A4E0A15296DE87B00A98048 /* UIImageView + extention.swift */,
+				9A4E0A13296DE72100A98048 /* UILabel + extention.swift */,
+				9A4E0A11296DB66900A98048 /* UIFont + extention.swift */,
+			);
+			path = Exctention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +147,6 @@
 			files = (
 				9A4E0A07296DB39100A98048 /* LaunchScreen.storyboard in Resources */,
 				9A4E0A04296DB39100A98048 /* Assets.xcassets in Resources */,
-				9A4E09FF296DB38F00A98048 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +157,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4E09FC296DB38F00A98048 /* ViewController.swift in Sources */,
+				9A4E09FC296DB38F00A98048 /* AuthViewController.swift in Sources */,
+				9A4E0A12296DB66900A98048 /* UIFont + extention.swift in Sources */,
 				9A4E09F8296DB38F00A98048 /* AppDelegate.swift in Sources */,
 				9A4E09FA296DB38F00A98048 /* SceneDelegate.swift in Sources */,
+				9A4E0A10296DB45D00A98048 /* UIButton + extention.swift in Sources */,
+				9A4E0A16296DE87B00A98048 /* UIImageView + extention.swift in Sources */,
 				9A4E0A02296DB38F00A98048 /* IChat.xcdatamodeld in Sources */,
+				9A4E0A14296DE72100A98048 /* UILabel + extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A4E09FD296DB38F00A98048 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A4E09FE296DB38F00A98048 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A4E0A05296DB39100A98048 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +308,6 @@
 				INFOPLIST_FILE = IChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +335,6 @@
 				INFOPLIST_FILE = IChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
